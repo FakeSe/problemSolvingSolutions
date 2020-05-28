@@ -23,6 +23,6 @@ console.assert(random(y,y) === y, "random is not working when the difference is 
 
 console.assert(random(1.5, 5.9) === false, "random is accepting floats")
 
-const languages = ["c", "c++", "c#", "js", "ts", "php", "python"]
+const languages = ["c", "c++", "c#", "js", "ts", "php", "python", "java"]
 
-console.log(`The chosen language for this problem is: ${languages[random(0, 6)]}`)
+console.log(`The chosen language for this problem is: ${languages[random(0, 7)]}`)
