@@ -5,8 +5,6 @@
 // random(0, 0)  =>  0
 // random(9, 9)  =>  9
 
-//Youtube video: https://youtu.be/458ToyyqJ_I
-
 
 function random(min, max) {
     return (!Number.isInteger(min) || !Number.isInteger(max)) ? false
